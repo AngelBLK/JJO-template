@@ -13,7 +13,7 @@ body{
 .container{
     width: 1349px;
     height: 350px;
-    background-image: url('/images/hero-image.png');
+    background-image: url('../images/hero-image.png');
     background-position: 40% 60%;
     background-size: cover;
 }
@@ -234,7 +234,7 @@ button{
 .container__newsletter{
     width: 1230px;
     height: 200px;
-    background-image: url('/images/Newsletter-image.png');
+    background-image: url('../images/Newsletter-image.png');
     background-size: cover;
     background-color: #141414;
     background-position: center;
