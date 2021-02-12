@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+.container{
+    width: 1349px;
+    height: 350px;
+    background-image: url('/images/hero-image.png');
+    background-position: 40% 60%;
+    background-size: cover;
+}
+
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    width: 1230px;
+    padding-top: 20px;
+}
+
+.nav__logo{
+    padding-left: 90px;
+    font-weight: 700;
+    color: #fff;
+    display: inline;
+    
+}
+
+.list__item {
+    display: inline;
+    padding: 12px;
+}
+
+.list__item-a{
+    color: #fff;
+}
+
+.info{
+    padding-left: 90px;
+    padding-top: 50px;   
+}
+
+.info__tittle{
+    color: #fff;
+    font-weight: 700;
+}
+
+.info__copy{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.info__button{
+    font-weight: 500;
+}
+
+.button{
+    color: #fff ;
+    background-color:#266EFD ;
+    border-radius: 3px;
+    padding: 9px;
+    box-shadow: 2px 2px 2px #666666;
+}
+
+.button:hover{
+    background-color:#466EFD ;
+    box-shadow: 3px 3px 3px #656565;
+}
+
+.main__container{
+    width: 1230px;
+    margin: 30px auto;
+
+    
+}
+
+.main__top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__tittle{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.main__view{
+    padding: 10px;
+    text-decoration: none;
+}
+
+.link{
+    color: #276FFB;
+}
+
+.fas{
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.main__articles{
+    margin:10px auto;
+    display: flex;
+}
+
+article{
+    width: 380px;
+    height: 200px;
+    
+}
+
+.line{
+    margin: 0 30px;
+    height: 130px;
+}
+
+.article__top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.article__tittle{
+    font-size: 18px;
+    font-weight: 600;
+    color: #276FFB;
+}
+
+.article__time{
+    font-size: 14px;
+    font-weight: 400;
+    margin: auto;
+    margin-left: 95px;
+}
+
+.article__sub{
+    display: flex;
+}
+
+.sub__tittle{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.sub__other{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.text__copy{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px ;
+}
+
+.button__arrow{
+    width: 35px;
+    height: 35px;
+    margin-left: 325px;
+    position: absolute;
+    
+}
+
+.arrow{
+    color: #fff;
+    margin: 0 auto;
+}
+
+.featured__container{
+    width: 1377px;
+    height: 176px;
+    margin-left: 60px;
+    
+}
+
+.featured__top{
+    width: 100%;
+    display: flex;
+}
+
+.featured__tittle{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.featured__icons{
+    display: flex;
+    width: 100%;    
+}
+
+.icons__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin-right: 50px;
+    
+}
+
+button{
+    border-radius: 50%;
+    border: solid #B9B9B9 ;
+    background-color: #fff;
+    width: 48px;
+    height: 48px;
+    margin: 1px;
+}
+
+.icons-info{ 
+    font-size: 18px;
+}   
+
+.button-circle{
+    background-color:#266EFD ;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: -30px; 
+}
+
+.container__newsletter{
+    width: 1230px;
+    height: 200px;
+    background-image: url('/images/Newsletter-image.png');
+    background-size: cover;
+    background-color: #141414;
+    background-position: center;
+    margin: 40px auto;
+    padding-top: 20px;
+    padding-left: 30px;
+    border-radius: 4px;
+}
+.newsletter{
+    width: 390px;
+    
+    
+}
+.newsletter__tittle{
+    color: #fff;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.newsletter__copy{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px auto;
+}
+
+.newsletter__form{
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+}
+
+.newsletter__form-input{
+    height: 35px;
+    width: 250px;
+    font-weight: 500;
+}
+.newsletter__form-button{
+    width: 110px;
+    height: 37px;
+    text-align: center;
+    display: inline-block;
+    padding-top:10px;
+    border: 0;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.footer{
+    width: 700px;
+    margin: auto;
+}
+
+.footer-a{
+    padding-left: 15px;
+    font-size: 13px;
+    color: #707070;
+}
