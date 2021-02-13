@@ -175,14 +175,14 @@ article{
 }
 
 .featured__container{
-    width: 100%;
+    width: 90%;
     height: 176px;
     margin-left: 60px;
     
 }
 
 .featured__top{
-    width: 70%;
+    width: 90%;
     display: flex;
 }
 
@@ -216,7 +216,7 @@ button{
 }
 
 .icons-info{ 
-    font-size: 18px;
+    font-size: 17px;
 }   
 
 .button-circle{
