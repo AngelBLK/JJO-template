@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-    width: 1349px;
+    width: 100%;
     height: 350px;
     background-image: url(../images/hero-image.png);
     background-position: 40% 60%;
@@ -21,7 +21,7 @@ body{
 .nav__container{
     display: flex;
     justify-content: space-between;
-    width: 1230px;
+    width: 80%;
     padding-top: 20px;
 }
 
@@ -175,14 +175,14 @@ article{
 }
 
 .featured__container{
-    width: 1377px;
+    width: 100%;
     height: 176px;
     margin-left: 60px;
     
 }
 
 .featured__top{
-    width: 100%;
+    width: 70%;
     display: flex;
 }
 
